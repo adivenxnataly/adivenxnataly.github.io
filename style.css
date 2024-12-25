@@ -8,8 +8,9 @@
 }
 
 body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background: url('yj.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,8 @@ body{
 }
 
 .container{
-    background-color: #fff;
+    background: transparent;
+    backdrop-filter: blur(20px);
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: center;
@@ -116,4 +118,5 @@ body{
     height: 20px;
     color: black;
     top: 10px;
+    text-decoration: none;
 }
